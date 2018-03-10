@@ -25,7 +25,7 @@ from my_details import MyDetails # singleton that contains email, password and t
 
 
 class FacebookBrowser2:
-    def __init__(self, Details, page_id = 'Netanyahu'):
+    def __init__(self, Details, page_id = 'Some_page_id'):
         """
         :param Details: singleton, should contain auth data and have fields email and password.
                 page_id: id for page to visit
